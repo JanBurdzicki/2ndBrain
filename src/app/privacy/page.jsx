@@ -1,8 +1,4 @@
-"use client";
-
-import Image from "next/image";
 import styles from "./privacyPage.module.css";
-import Menu from "@/components/menu/Menu";
 
 const PrivacyPage = () => {
   return (

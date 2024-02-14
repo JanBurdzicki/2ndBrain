@@ -1,6 +1,3 @@
-"use client";
-
-import Image from "next/image";
 import styles from "./aboutPage.module.css";
 
 const AboutPage = () => {
@@ -11,10 +8,10 @@ const AboutPage = () => {
           <div className={styles.description}>
 
             <p className={styles.desc}>
-              The 2ndBrain Blog is an innovative platform dedicated to sharing insights, strategies, and techniques for leveraging the concept of a "second brain" effectively. Rooted in the principles of personal knowledge management (PKM), the blog explores various methods and tools to enhance cognitive productivity, streamline information processing, and foster creative thinking. Whether discussing note-taking systems, digital tools, or cognitive frameworks, the 2ndBrain Blog aims to empower individuals to optimize their cognitive workflows and unlock their full intellectual potential. With a focus on practical advice and real-world applications, this blog serves as a valuable resource for anyone seeking to cultivate a more organized, efficient, and impactful approach to managing information and ideas.
+              The 2ndBrain Blog is an innovative platform dedicated to sharing insights, strategies, and techniques for leveraging the concept of a &quot;second brain&quot; effectively. Rooted in the principles of personal knowledge management (PKM), the blog explores various methods and tools to enhance cognitive productivity, streamline information processing, and foster creative thinking. Whether discussing note-taking systems, digital tools, or cognitive frameworks, the 2ndBrain Blog aims to empower individuals to optimize their cognitive workflows and unlock their full intellectual potential. With a focus on practical advice and real-world applications, this blog serves as a valuable resource for anyone seeking to cultivate a more organized, efficient, and impactful approach to managing information and ideas.
             </p>
             <p>
-              The Second Brain idea refers to the concept of creating a digital extension of one's mind – a repository where individuals can store, organize, and retrieve information effectively. Inspired by the notion that our brains often struggle to retain and process the vast amount of information encountered daily, the Second Brain idea proposes using digital tools and systems to offload cognitive tasks and enhance productivity.
+              The Second Brain idea refers to the concept of creating a digital extension of one&apos;s mind – a repository where individuals can store, organize, and retrieve information effectively. Inspired by the notion that our brains often struggle to retain and process the vast amount of information encountered daily, the Second Brain idea proposes using digital tools and systems to offload cognitive tasks and enhance productivity.
             </p>
 
             <p>

@@ -1,8 +1,4 @@
-"use client";
-
-import Image from "next/image";
 import styles from "./contactPage.module.css";
-// import Menu from "@/components/Menu/Menu";
 
 const ContactPage = () => {
 
@@ -13,7 +9,7 @@ const ContactPage = () => {
 		<div className={styles.description}>
 
 		 <p className={styles.desc}>
-		 Got a question, suggestion, or just want to say hi? We'd love to hear from you! Drop us a line and we'll get back to you as soon as possible. Your feedback is invaluable to us as we strive to create content that resonates with our readers. Let's stay connected!
+		 Got a question, suggestion, or just want to say hi? We&apos;d love to hear from you! Drop us a line and we&apos;ll get back to you as soon as possible. Your feedback is invaluable to us as we strive to create content that resonates with our readers. Let&apos;s stay connected!
 		 </p>
 		 <br></br>
 		 <p className={styles.desc}>
