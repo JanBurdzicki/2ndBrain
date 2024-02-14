@@ -19,36 +19,39 @@ Welcome to the 2ndBrain project! This project is aimed at creating a responsive 
 
 ## Getting Started
 
-To get started with the Second Brain project, follow these steps:
+To get started with the 2ndBrain project, follow these steps:
 
-Clone the repository to your local machine:
-```bash
-git clone https://github.com/your-username/second-brain.git
-```
+* Clone the repository to your local machine:
+	```bash
+	git clone https://github.com/JanBurdzicki/2ndBrain.git
+	```
+* Move to project directory:
+	```bash
+	cd 2ndBrain
+	```
 
-Install dependencies:
-```bash
-cd second-brain
-npm install
-```
-
-Set up environment variables:
-* Copy the .env.template file to .env and configure environment variables such as database connection strings, authentication providers, etc.
-
-Run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+* Install dependencies:
+	```bash
+	npm install
+	# or
+	yarn install
+	# or
+	pnpm install
+	```
+* Set up environment variables:
+	* Copy the `.env.template` file to `.env` and configure environment variables such as database connection strings, authentication providers, etc.
+* Run the development server:
+	```bash
+	npm run dev
+	# or
+	yarn dev
+	# or
+	pnpm dev
+	```
 
 Open your browser and navigate to http://localhost:3000 to view the application.
 
 <!-- This project uses [next/font](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load Inter, a custom Google Font. -->
-
 
 ## Contributing
 
