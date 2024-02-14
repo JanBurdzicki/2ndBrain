@@ -17,6 +17,7 @@ RUN npm install --omit=dev
 # Copy local code to the container image.
 COPY . .
 
+RUN npx prisma generate
 RUN npm run build
 
 # Run the web service on container startup.
