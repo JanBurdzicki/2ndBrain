@@ -18,6 +18,22 @@
   font-weight: bold;
 }
 
+.logoLink1 {
+  color: #e66363;
+  /* color: darkseagreen; */
+  /* color: darksalmon; */
+  /* color: cyan; */
+  /* color: darkcyan; */
+  /* color: darkturquoise; */
+  /* color: mediumspringgreen; */
+  /* color:mediumturquoise; */
+  /* color: salmon; */
+  /* color: teal; */
+  /* color:tomato; */
+  /* color: turquoise; */
+  /* color: coral; */
+}
+
 .links {
   display: flex;
   align-items: center;

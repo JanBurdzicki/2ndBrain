@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./card.module.css";
 import Link from "next/link";
-import DateFormat from "../date/Date";
+import DateFormat from "../dateFormat/DateFormat";
 
 const Card = ({ key, item }) => {
 	return (

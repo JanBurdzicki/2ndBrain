@@ -6,7 +6,7 @@ import Image from "next/image";
 import useSWR from "swr";
 import { useSession } from "next-auth/react";
 import { useState } from "react";
-import DateFormat from "../date/Date";
+import DateFormat from "../dateFormat/DateFormat";
 
 const fetcher = async (url) => {
   const res = await fetch(url);

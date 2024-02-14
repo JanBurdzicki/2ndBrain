@@ -15,8 +15,11 @@ const Navbar = () => {
         <Image src="/youtube.png" alt="youtube" width={24} height={24} />
       </div>
       <div className={styles.logo}>
-	    <Link href="/" className={styles.link}>
-		  2ndBrain
+	    <Link href="/" className={styles.logoLink1}>
+		  2nd
+		</Link>
+	    <Link href="/" className={styles.logoLink2}>
+		  Brain
 		</Link>
 	  </div>
       <div className={styles.links}>

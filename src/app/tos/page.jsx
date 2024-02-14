@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import styles from "./tosPage.module.css";
-import Menu from "@/components/Menu/Menu";
+import Menu from "@/components/menu/Menu";
 
 const TosPage = () => {
   return (

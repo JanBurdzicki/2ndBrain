@@ -1,8 +1,9 @@
-import Menu from "@/components/Menu/Menu";
+import Menu from "@/components/menu/Menu";
 import styles from "./singlePage.module.css";
 import Image from "next/image";
 import Comments from "@/components/comments/Comments";
-import DateFormat from "@/components/date/Date";
+import DateFormat from "@/components/dateFormat/DateFormat";
+import ReadTime from "@/components/readTime/ReadTime";
 
 const getData = async (slug) => {
   const res = await fetch(`http://localhost:3000/api/posts/${slug}`, {
@@ -34,9 +35,14 @@ const SinglePage = async ({ params }) => {
             )}
             <div className={styles.userTextContainer}>
               <span className={styles.username}>{data?.user.name}</span>
-              <span className={styles.date}>
-			    <DateFormat dateString={data?.createdAt} dateFormat={"MM.dd.y"} />
-			  </span>
+              <div>
+                <span className={styles.date}>
+			      <DateFormat dateString={data?.createdAt} dateFormat={"MM.dd.y"} /> -{" "}
+			    </span>
+				<span className={styles.readTime}>
+			  	<ReadTime text={data?.desc} />
+			    </span>
+              </div>
             </div>
           </div>
         </div>
@@ -48,7 +54,7 @@ const SinglePage = async ({ params }) => {
       </div>
       <div className={styles.content}>
         <div className={styles.post}>
-          <div
+		  <div
             className={styles.description}
             dangerouslySetInnerHTML={{ __html: data?.desc }}
           />
