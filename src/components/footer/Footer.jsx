@@ -12,10 +12,7 @@ const Footer = () => {
           <h1 className={styles.logoText}>2ndBrain Blog</h1>
         </div>
         <p className={styles.desc}>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim
-          necessitatibus similique aspernatur obcaecati veritatis. Aperiam cum
-          porro sequi, totam minima consequuntur, aspernatur deleniti vero
-          repellendus dorales.
+          Unlock the power of your second brain with innovative strategies and techniques designed to supercharge your productivity and creativity. Discover how to harness the potential of your second brain to organize thoughts and achieve peak mental performance.
         </p>
         <div className={styles.icons}>
           <Image src="/facebook.png" alt="" width={18} height={18} />

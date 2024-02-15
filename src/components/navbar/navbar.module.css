@@ -19,7 +19,7 @@
 }
 
 .logoLink1 {
-  color: #e66363;
+  /* color: #e66363; */
   /* color: darkseagreen; */
   /* color: darksalmon; */
   /* color: cyan; */
@@ -31,7 +31,7 @@
   /* color: teal; */
   /* color:tomato; */
   /* color: turquoise; */
-  /* color: coral; */
+  color: coral;
 }
 
 .links {
