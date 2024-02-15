@@ -5,3 +5,5 @@ node_modules
 docs
 .vscode
 screenshots
+.next
+public/images

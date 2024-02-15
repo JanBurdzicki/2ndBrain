@@ -1,5 +1,6 @@
 "use client";
 
+import React from "react";
 import Link from "next/link";
 import styles from "./comments.module.css";
 import Image from "next/image";
@@ -25,7 +26,8 @@ const Comments = ({ postSlug }) => {
   const { status } = useSession();
 
   const { data, mutate, isLoading } = useSWR(
-    `http://localhost:3000/api/comments?postSlug=${postSlug}`,
+    // `${process.env.BASE_URL}/api/comments?postSlug=${postSlug}`,
+    `https://secondbrain-app-jkrcbdhh6a-ez.a.run.app/api/comments?postSlug=${postSlug}`,
     fetcher
   );
 
