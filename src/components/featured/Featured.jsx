@@ -21,13 +21,10 @@ const Featured = () => {
         </div>
         <div className={styles.textContainer}>
           <h1 className={styles.postTitle}>
-		    Lorem ipsum dolor sit amet alim consectetur adipisicing elit.
+		    Revolutionize how you learn, work, and create – the possibilities are limitless.
 		  </h1>
           <p className={styles.postDesc}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Cupiditate, quam nisi magni ea laborum inventore voluptatum
-            laudantium repellat ducimus unde aspernatur fuga. Quo, accusantium
-            quisquam! Harum unde sit culpa debitis.
+            Are you constantly overwhelmed by the flood of information, ideas, and tasks that bombard you daily? Enter the concept of the "second brain" – a revolutionary approach to organizing and managing your digital life.
           </p>
           <button className={styles.button}>Read More</button>
         </div>
